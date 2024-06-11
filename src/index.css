@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.skill {
+    margin-top: 16px;
+  }
+  
+  .progress-bar-background {
+    width: 100%;
+    background-color: #555; /* Dark grey background */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    height: 24px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #ffa500; /* Orange color for the progress */
+    border-radius: 8px 0 0 8px;
+  }
+  
